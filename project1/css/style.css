@@ -110,6 +110,11 @@ body {
     color: #bfbfbf;
 }
 
+.footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .card--dark .card__body, .card--dark .card__body--big {
     background-color: #666;
     color: #efefef;
@@ -158,7 +163,4 @@ body {
     }
 }
 
-.footer {
-    margin: 0 auto;
-    text-align: center;
-}
+
