@@ -1,0 +1,164 @@
+.top-nav {
+    background-color: darkcyan;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.top-nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.top-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+body {
+    font-family: "Century Gothic";
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+}
+
+.filter-area {
+    float: left;
+    font-size: 15px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.content-container {
+    flex: 1 1 auto;
+    width: 110%;
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*.card__body {*/
+/*    line-height: normal;*/
+/*}*/
+.card {
+    height: 330px;
+    width: 330px;
+    border: 3px solid #333;
+    display: inline-block;
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 100%;
+    height: 226px;
+}
+
+.card__content {
+    width: 100%;
+    height: 220px;
+    flex: 1 1 auto;
+
+}
+
+/*.price {*/
+/*    font-size: 14px;*/
+/*paddin   margin-left: 20px;*/
+/*}*/
+
+
+.card__title {
+    padding: 6px 8px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    flex: 0 0 40px;
+    overflow-wrap: break-word;
+
+}
+
+.price {
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.card__body, .card__body--big {
+    padding: 10px 9px;
+    font-weight: 300;
+    color: #333;
+    flex: 0 0 27px;
+}
+
+.card__body--big {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card--dark .card__content {
+    background-color: #eee;
+}
+
+.card--dark .card__title {
+    background-color: #666;
+    color: #bfbfbf;
+}
+
+.card--dark .card__body, .card--dark .card__body--big {
+    background-color: #666;
+    color: #efefef;
+}
+
+@media only screen and (max-width: 1366px) {
+    .app-container {
+        flex-direction: column;
+        width: 900px;
+    }
+
+    .navigation {
+        min-height: auto;
+        flex: 0 0 35px;
+    }
+
+    .navigation a {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 1024px) {
+    .app-container {
+        width: 720px;
+    }
+
+    .content-container .card {
+        flex-basis: 330px;
+        height: 330px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .app-container {
+        margin: 0 15px;
+        width: calc(100% - 30px);
+    }
+
+    .content-container {
+        width: calc(100% - 50px);
+    }
+
+    .content-container .card {
+        height: 50px;
+        flex-basis: 100%;
+    }
+}
+
+.footer {
+    margin: 0 auto;
+    text-align: center;
+}

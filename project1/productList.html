@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My MarketPlace</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class = "top-nav">
+        <a class="navbar-brand">Cookie Marketplace</a>
+        <a class="active" href="#">Home</a>
+        <a class="active" href="#">Product List</a>
+    </div>
+
+
+</header>
+<div class="row">
+<div class = "containers" id="side">
+<div class="filter-area">
+    <div class="form-group" style="margin-right: 20px;">
+        <label for="orderBy">Order By</label>
+        <select id="orderBy" name="orderBy">
+            <option value="name">Name</option>
+            <option value="published">Best Selling</option>
+        </select>
+
+    </div>
+    &nbsp
+    <div class="form-group">
+        <label for="priceRange">Price Range</label>
+        <select id="priceRange" name="priceRange">
+            <option value="low-to-high">Price: Low to High</option>
+            <option value="high-to-low">Price: High to Low</option>
+        </select>
+    </div>
+
+</div>
+</div>
+
+<div class="content-container">
+    <div class="card">
+        <div class="card__content">
+            <img src="img/cchip.jpg" alt="chocolate chip cookie">
+        </div>
+        <div class="card__title">
+            Chocolate Chip Cookies
+            <br>
+           - 4 cookies total.
+        </div>
+        <div class="card__body">
+            <div class="price">
+                $3.50
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="card">
+        <div class="card__content">
+            <img src="img/mchip.jpg" alt="macadamia chip cookie">
+        </div>
+        <div class="card__title">
+            White Chocolate <br> Macadamia Nut Cookies<br>
+            - 4 cookies total.
+        </div>
+        <div class="card__body">
+            <div class="price">
+                $3.50
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__content">
+            <img src="img/pbcookie.jpg" alt="peanut butter cookie">
+        </div>
+        <div class="card__title">
+            Peanut Butter Cookies <br>
+            - 4 cookies total.
+        </div>
+
+        <div class="card__body">
+            <div class="price">
+                $3.50
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__content" style="margin-bottom: 20px">
+        <img src="img/oatraisincookie.jpeg" alt="oatmeal raisin cookie">
+        </div>
+
+        <div class="card__title">
+            Oatmeal Raisin Cookie <br>
+            - 4 cookies total.
+        </div>
+
+        <div class="card__body">
+            <div class="price">
+                $3.50
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__content">
+            <img src="img/m&mcookie.jpg" alt="m&m cookie">
+        </div>
+        <div class="card__title">
+            M&M Cookies <br>
+            - 4 cookies total.
+        </div>
+
+        <div class="card__body">
+            <div class="price">
+                $3.75
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__content" style="margin-bottom: 20px">
+        <img src="img/pb&jcookie.jpg" alt="pb&j cookie">
+    </div>
+        <div class="card__title">
+            Peanut Butter & Jelly Cookies <br>
+            - 4 cookies total.
+        </div>
+
+        <div class="card__body">
+            <div class="price">
+                $4.00
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__content">
+            <img src="img/smorecookie.jpg" alt="smores cookie">
+        </div>
+        <div class="card__title">
+            Smores Cookie <br>
+            - 4 cookies total.
+        </div>
+
+        <div class="card__body">
+            <div class="price">
+                $4.50
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card__content">
+            <img src="img/sberrycookie.jpg" alt="strawberry shortcake cookie">
+        </div>
+        <div class="card__title">
+            Strawberry Shortcake Cookies <br>
+            - 4 cookies total.
+        </div>
+
+        <div class="card__body">
+            <div class="price">
+                $4.75
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card__content" style="margin-bottom: 30px">
+            <img src="img/espressochip.jpg" alt="espresso chocolate chip cookie" >
+        </div>
+        <div class="card__title">
+            Espresoo Chocolate Chip Cookie <br>
+            - 4 cookies total.
+        </div>
+
+        <div class="card__body">
+            <div class="price">
+                $5.00
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+</div>
+
+<div id="dataSet">
+
+
+</div>
+
+
+<footer class="footer container">
+    <p>&copy; Ashley Palaguachi 2020</p>
+</footer>
+
+
+</body>
+<script type="text/javascript" src="productList.js"></script>
+
+</html>
